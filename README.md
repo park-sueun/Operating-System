@@ -1,9 +1,9 @@
 # Operating System, 2021 Spring Homework2 - PCTEST
 
-### Overview
+## Overview
 PCTEST is a tool for evaluating students' programming assignments. Run both the target program (student's submission) and the solution program (the correct program), then compare the results to ensure that the target program returns the correct results.
 
-### Instructions for Building and Running
+## Instructions for Building and Running
 
 Users can use **Makefile** to build programs without much effort.
 ```
@@ -18,7 +18,14 @@ $ ./pctest -i <testdir> -t <timeout> <solution> <target>
 > $ make pctest : This command works the same as make all.<br />
 > $ make clean : Not only pctest, but also built by running pctest, created solution and target executable files are also removed.<br />
 
-### Workflow
+## Video Demo
+The video demo includes a review of the pctest program code.<br />
+In addition, it covers the main scenarios of pctest through execution to ensure that the program meets the requirements.<br />
+
+YouTube Link : https://www.youtube.com/
+
+
+## Workflow
 
 ##### Step 1
 Check that the test set directory exists for testing the program and validate the execution timeout.
@@ -31,17 +38,9 @@ Determines whether the execution result of the input target is correct by checki
 ##### Step 5
 When all the given tests are executed, print out the test results.
 
+
 ## Solution Program
+
 > Baekjoon: Word Count<br />
 > https://www.acmicpc.net/problem/1152
-
-## Useful Links
-
-> For studying Linux programming<br />
-> Linux man pages https://linux.die.net/man/<br />
-> GNU C library https://www.gnu.org/software/libc/manual/<br />
-> Advanced Linux programming http://www.makelinux.net/alp/<br />
-> The Linux Programming Interface http://man7.org/tlpi/code/online/all_files_by_chapter.html<br />
-> Unix Application and System Programming by Prof. Stewart Weiss  http://www.compsci.hunter.cuny.edu/~sweiss/course_materials/unix_lecture_notes.php<br />
-
 
