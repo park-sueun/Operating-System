@@ -22,7 +22,7 @@ $ ./pctest -i <testdir> -t <timeout> <solution> <target>
 The video demo includes a review of the pctest program code.<br />
 In addition, it covers the main scenarios of pctest through execution to ensure that the program meets the requirements.<br />
 
-YouTube Link : https://www.youtube.com/
+Google Drive Link : https://drive.google.com/drive/u/0/folders/1UlDWBsNXxneLUjgp383NibvUWNTPH41Y
 
 
 ## Workflow
