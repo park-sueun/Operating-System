@@ -26,10 +26,17 @@ YouTube Link :
 
 
 ## Limitations and Problems of Current Design
+Currently implemented pfind does not meet the following requirements.<br />
+1. Improper implementation for multi-process<br />
+2. pfind works only for files under the current path<br />
+3. Abnormal termination when entering <dir> as an absolute path<br />
+4. No option provided for pfind<br />
 
+## Future progress
+I've been thinking a lot about how to design a multiprocess by creating multiple child processes as a single thread, but I haven't found a solution yet.<br />
 
-## Solution Program
+The biggest reason I couldn't solve was that I couldn't figure out how to create multiple child processes and keep them up to a limited number. Also, when operating as multiple processes, we have not yet understood exactly how to prevent more than one process from entering or reading pipes at the same time.<br />
 
-> Baekjoon: Word Count<br />
-> https://www.acmicpc.net/problem/1152
+Even after the project deadline, we will continue to think and challenge ourselves to successfully complete the multi-process design.<br />
+
 
